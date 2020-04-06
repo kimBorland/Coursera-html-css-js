@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Below styling will apply to Desktop View - 992x and above */
+
+#chicken {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+#beef {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+#sushi {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 700;
+    background-color: olive;
+    border: 1px solid #000;
+    position: relative;
+    padding-right: 2%;
+    width: 17.5%;
+    left: 80%;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+section li {
+    width: auto;
+}
+
+/* Start Media Query for Tablet View - between 768px and 991px*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#chicken {
+    width: 45%;
+    margin: 1%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+#beef {
+    width: 45%;
+    margin: 1%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+#sushi {
+    width: 45%;
+    margin: 1%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+}
+
+/* Start Media Query for Mobile View - maximum of 767px */
+
+@media (max-width: 767px) {
+
+    #chicken {
+        width: 95%;
+        margin: 1%;
+        float: left;
+        background-color: #fff;
+        border: 1px solid #000;
+    }
+    
+    #beef {
+        width: 95%;
+        margin: 1%;
+        float: left;
+        background-color: #fff;
+        border: 1px solid #000;
+    }
+    
+    #sushi {
+        width: 95%;
+        margin: 1%;
+        float: left;
+        background-color: #fff;
+        border: 1px solid #000;
+    }
+    
+    }
+
+
+
+
